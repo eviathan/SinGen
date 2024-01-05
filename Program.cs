@@ -26,21 +26,21 @@ class Program
     static void WriteWavHeader(BinaryWriter writer, int sampleRate, int frequency)
     {
         int bufferLength = sampleRate / frequency;
-        int fileSize = 44 + bufferLength * 2; // 44 bytes header + data size
+        int fileSize = 44 + bufferLength * 2;
 
         writer.Write(new char[4] { 'R', 'I', 'F', 'F' });
-        writer.Write(fileSize - 8); // File size minus RIFF and size fields
+        writer.Write(fileSize - 8);
         writer.Write(new char[4] { 'W', 'A', 'V', 'E' });
         writer.Write(new char[4] { 'f', 'm', 't', ' ' });
-        writer.Write(16); // Subchunk1Size (PCM)
-        writer.Write((short)1); // AudioFormat (PCM)
-        writer.Write((short)1); // NumChannels
-        writer.Write(sampleRate); // SampleRate
-        writer.Write(sampleRate * 2); // ByteRate
-        writer.Write((short)2); // BlockAlign
-        writer.Write((short)16); // BitsPerSample
+        writer.Write(16);
+        writer.Write((short)1);
+        writer.Write((short)1);
+        writer.Write(sampleRate);
+        writer.Write(sampleRate * 2);
+        writer.Write((short)2);
+        writer.Write((short)16);
         writer.Write(new char[4] { 'd', 'a', 't', 'a' });
-        writer.Write(bufferLength * 2); // Subchunk2Size
+        writer.Write(bufferLength * 2);
     }
 
     static void WriteSineWave(BinaryWriter writer, int frequency)
