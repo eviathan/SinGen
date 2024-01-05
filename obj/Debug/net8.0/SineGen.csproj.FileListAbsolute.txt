@@ -1,0 +1,14 @@
+/Volumes/Work/Dev/Audio/SineGen/obj/Debug/net8.0/SineGen.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Work/Dev/Audio/SineGen/obj/Debug/net8.0/SineGen.AssemblyInfoInputs.cache
+/Volumes/Work/Dev/Audio/SineGen/obj/Debug/net8.0/SineGen.AssemblyInfo.cs
+/Volumes/Work/Dev/Audio/SineGen/obj/Debug/net8.0/SineGen.csproj.CoreCompileInputs.cache
+/Volumes/Work/Dev/Audio/SineGen/bin/Debug/net8.0/SineGen
+/Volumes/Work/Dev/Audio/SineGen/bin/Debug/net8.0/SineGen.deps.json
+/Volumes/Work/Dev/Audio/SineGen/bin/Debug/net8.0/SineGen.runtimeconfig.json
+/Volumes/Work/Dev/Audio/SineGen/bin/Debug/net8.0/SineGen.dll
+/Volumes/Work/Dev/Audio/SineGen/bin/Debug/net8.0/SineGen.pdb
+/Volumes/Work/Dev/Audio/SineGen/obj/Debug/net8.0/SineGen.dll
+/Volumes/Work/Dev/Audio/SineGen/obj/Debug/net8.0/refint/SineGen.dll
+/Volumes/Work/Dev/Audio/SineGen/obj/Debug/net8.0/SineGen.pdb
+/Volumes/Work/Dev/Audio/SineGen/obj/Debug/net8.0/SineGen.genruntimeconfig.cache
+/Volumes/Work/Dev/Audio/SineGen/obj/Debug/net8.0/ref/SineGen.dll
